@@ -31,9 +31,7 @@ def encode_known_faces(model: str = "hog", encodings_location: Path = DEFAULT_EN
 
 
 def _recognize_face(unknown_encoding, loaded_encodings):
-    boolean_matches = face_recognition.compare_faces(
-        loaded_encodings["encodings"], unknown_encoding
-    )
+    boolean_matches = face_recognition.compare_faces(loaded_encodings["encodings"], unknown_encoding)
     votes = Counter(
         name
         for match, name in zip(boolean_matches, loaded_encodings["names"])
