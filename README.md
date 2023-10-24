@@ -17,3 +17,7 @@ Image encoding capable of running with CPU and GPU.  Default is CPU integrated g
 
 ![image](https://github.com/J-stacked/Facial-Recognition-Py/assets/146044161/4e8198b0-b05d-44c3-9b63-2fd830bad24b)
 
+Works with AI generated images as well!
+
+![image](https://github.com/J-stacked/Facial-Recognition-Py/assets/146044161/45be47ca-ac85-4d68-b71e-a3e1347e6902)
+
